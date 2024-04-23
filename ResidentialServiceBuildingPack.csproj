@@ -80,6 +80,10 @@
         <None Include="$(ModTargetsFile)" Link="Properties\Mod.targets"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Resources\assets\ResidentialServiceBuildingPack\" />
+    </ItemGroup>
+
     <Target Name="GetAdditionalFiles" AfterTargets="DeployWIP">
         <ItemGroup>
             <AdditionalFilesToDeploy Include="$(AdditionalFilesDirectory)\**\*.*" />

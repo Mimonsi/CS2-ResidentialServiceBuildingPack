@@ -1,8 +1,8 @@
 {
-  "Assets.NAME[MixedResidentialFireStation]": "Mixed Residential Clinic",
-  "Assets.DESCRIPTION[MixedResidentialFireStation]": "Example Description",
-  "Assets.NAME[MixedResidentialPoliceStation]": "Example Name",
-  "Assets.DESCRIPTION[MixedResidentialPoliceStation]": "Example Description",
-  "Assets.NAME[MixedResidentialClinic]": "Example Name",
-  "Assets.DESCRIPTION[MixedResidentialClinic]": "Example Description"
+  "Assets.NAME[Mixed Residential Fire Station]": "Mixed Residential Clinic",
+  "Assets.DESCRIPTION[Mixed Residential Fire Station]": "Example Description",
+  "Assets.NAME[Mixed Residential Police Station]": "Example Name",
+  "Assets.DESCRIPTION[Mixed Residential Police Station]": "Example Description",
+  "Assets.NAME[Mixed Residential Clinic]": "Example Name",
+  "Assets.DESCRIPTION[Mixed Residential Clinic]": "Example Description"
 }

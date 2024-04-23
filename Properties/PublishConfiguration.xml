@@ -18,9 +18,13 @@ This pack currently includes
 - Mixed Residential Clinic
 	</LongDescription>
 	<!--Thumbnail-->
-	<Thumbnail Value="Properties/Thumbnail.png" />
+	<Thumbnail Value="Properties/image1.png" />
 	<!--Screenshot, can be set multiple times-->
-	<Screenshot Value="" />
+	<Screenshot Value="Properties/image1.png" />
+	<Screenshot Value="Properties/image2.png" />
+	<Screenshot Value="Properties/MixedResidentialFireStation.png" />
+	<Screenshot Value="Properties/MixedResidentialPoliceStation.png" />
+	<Screenshot Value="Properties/MixedResidentialClinic.png" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
