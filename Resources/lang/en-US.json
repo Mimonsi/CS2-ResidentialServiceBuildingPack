@@ -1,4 +1,8 @@
 {
-  "Assets.NAME[CarProp]": "Example Name",
-  "Assets.DESCRIPTION[CarProp]": "Example Description"
+  "Assets.NAME[MixedResidentialFireStation]": "Mixed Residential Clinic",
+  "Assets.DESCRIPTION[MixedResidentialFireStation]": "Example Description",
+  "Assets.NAME[MixedResidentialPoliceStation]": "Example Name",
+  "Assets.DESCRIPTION[MixedResidentialPoliceStation]": "Example Description",
+  "Assets.NAME[MixedResidentialClinic]": "Example Name",
+  "Assets.DESCRIPTION[MixedResidentialClinic]": "Example Description"
 }
