@@ -3,16 +3,16 @@ using Game;
 using Game.Modding;
 using Game.SceneFlow;
 
-namespace CustomAssetPack
+namespace ResidentialServiceBuildingPack
 {
     public class Mod : IMod
     {
-        public static ILog log = LogManager.GetLogger($"{nameof(CustomAssetPack)}.{nameof(Mod)}")
+        public static ILog log = LogManager.GetLogger($"{nameof(ResidentialServiceBuildingPack)}.{nameof(Mod)}")
             .SetShowsErrorsInUI(false);
 
         public void OnLoad(UpdateSystem updateSystem)
         {
-            log.Info("Loading Asset Pack " + nameof(CustomAssetPack));
+            log.Info("Loading Asset Pack " + nameof(ResidentialServiceBuildingPack));
         }
 
         public void OnDispose()
