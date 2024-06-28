@@ -6,7 +6,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 15,
+        "$rlength": 14,
         "$rcontent": [
             {
                 "$id": 2,
@@ -3570,9 +3570,9 @@
                 "name": "ServiceConsumption",
                 "active": true,
                 "m_Upkeep": 10000,
-                "m_ElectricityConsumption": 1000,
+                "m_ElectricityConsumption": 2000,
                 "m_WaterConsumption": 1000,
-                "m_GarbageAccumulation": 700,
+                "m_GarbageAccumulation": 75,
                 "m_TelecomNeed": 0
             },
             {
@@ -3635,26 +3635,7 @@
             },
             {
                 "$id": 163,
-                "$type": "35|Game.Prefabs.ObsoleteIdentifiers, Game",
-                "name": "ObsoleteIdentifiers",
-                "active": true,
-                "m_PrefabIdentifiers": {
-                    "$id": 164,
-                    "$type": "36|Game.Prefabs.PrefabIdentifierInfo[], Game",
-                    "$rlength": 1,
-                    "$rcontent": [
-                        {
-                            "$id": 165,
-                            "$type": "37|Game.Prefabs.PrefabIdentifierInfo, Game",
-                            "m_Name": "Mixed Residential Police Station",
-                            "m_Type": "BuildingPrefab"
-                        }
-                    ]
-                }
-            },
-            {
-                "$id": 166,
-                "$type": "38|Game.Prefabs.PoliceStation, Game",
+                "$type": "35|Game.Prefabs.PoliceStation, Game",
                 "name": "PoliceStation",
                 "active": true,
                 "m_PatrolCarCapacity": 4,
@@ -3665,13 +3646,13 @@
         ]
     },
     "m_Meshes": {
-        "$id": 167,
-        "$type": "39|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 164,
+        "$type": "36|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 168,
-                "$type": "40|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 165,
+                "$type": "37|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:d2a9dc85652284647818aeb42015674f",
                 "m_Position": {
                     "$type": 6,

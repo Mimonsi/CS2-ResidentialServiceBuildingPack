@@ -7,7 +7,7 @@ namespace ResidentialServiceBuildingPack
 {
     public class Mod : IMod
     {
-        public static ILog log = LogManager.GetLogger($"{nameof(ResidentialServiceBuildingPack)}.{nameof(Mod)}")
+        public static ILog log = LogManager.GetLogger($"AssetPacksManager.Packs")
             .SetShowsErrorsInUI(false);
 
         public void OnLoad(UpdateSystem updateSystem)

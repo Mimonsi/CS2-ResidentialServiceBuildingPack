@@ -18,25 +18,27 @@ This pack currently includes
 - Mixed Residential Clinic
 	</LongDescription>
 	<!--Thumbnail-->
-	<Thumbnail Value="Properties/image1.png" />
-	<Screenshot Value="Properties/image1.png" />
-	<Screenshot Value="Properties/image2.png" />
-	<Screenshot Value="Properties/MixedResidentialFireStation.png" />
-	<Screenshot Value="Properties/MixedResidentialPoliceStation.png" />
-	<Screenshot Value="Properties/MixedResidentialClinic.png" />
+	<Thumbnail Value="Properties/image1.jpg" />
+	<Screenshot Value="Properties/image1.jpg" />
+	<Screenshot Value="Properties/image2.jpg" />
+	<Screenshot Value="Properties/MixedResidentialFireStation.jpg" />
+	<Screenshot Value="Properties/MixedResidentialPoliceStation.jpg" />
+	<Screenshot Value="Properties/MixedResidentialClinic.jpg" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/residential-service-building-pack.1670519/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0" />
+	<ModVersion Value="1.0.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="78903" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog>
-Initial Release
+- Fix Clinic incorrectly labeled as police station
+- Fix Economy 2.0 Garbage Accumulation
+- Fix Fire Station Service Coverage
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="discord" Url="https://discord.gg/UkKAfRqfCn" />

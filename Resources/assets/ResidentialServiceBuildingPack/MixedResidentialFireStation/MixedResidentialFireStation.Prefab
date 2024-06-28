@@ -6,7 +6,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 15,
+        "$rlength": 14,
         "$rcontent": [
             {
                 "$id": 2,
@@ -3570,9 +3570,9 @@
                 "name": "ServiceConsumption",
                 "active": true,
                 "m_Upkeep": 10000,
-                "m_ElectricityConsumption": 1000,
+                "m_ElectricityConsumption": 1500,
                 "m_WaterConsumption": 1000,
-                "m_GarbageAccumulation": 700,
+                "m_GarbageAccumulation": 75,
                 "m_TelecomNeed": 0
             },
             {
@@ -3623,8 +3623,8 @@
                 "name": "ServiceCoverage",
                 "active": true,
                 "m_Range": 5000,
-                "m_Capacity": 10000,
-                "m_Magnitude": 1
+                "m_Capacity": 15000,
+                "m_Magnitude": 5
             },
             {
                 "$id": 162,
@@ -3636,36 +3636,17 @@
                 "m_Icon": "coui://customassets/ResidentialServiceBuildingPack/MixedResidentialFireStation/MixedResidentialFireStation.png",
                 "m_LargeIcon": null,
                 "m_IsDebugObject": false
-            },
-            {
-                "$id": 163,
-                "$type": "35|Game.Prefabs.ObsoleteIdentifiers, Game",
-                "name": "ObsoleteIdentifiers",
-                "active": true,
-                "m_PrefabIdentifiers": {
-                    "$id": 164,
-                    "$type": "36|Game.Prefabs.PrefabIdentifierInfo[], Game",
-                    "$rlength": 1,
-                    "$rcontent": [
-                        {
-                            "$id": 165,
-                            "$type": "37|Game.Prefabs.PrefabIdentifierInfo, Game",
-                            "m_Name": "Mixed Residential Fire Station",
-                            "m_Type": "BuildingPrefab"
-                        }
-                    ]
-                }
             }
         ]
     },
     "m_Meshes": {
-        "$id": 166,
-        "$type": "38|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 163,
+        "$type": "35|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 167,
-                "$type": "39|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 164,
+                "$type": "36|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:d2a9dc85652284647818aeb42015674f",
                 "m_Position": {
                     "$type": 6,

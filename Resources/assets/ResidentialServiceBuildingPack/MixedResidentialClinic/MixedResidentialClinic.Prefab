@@ -6,7 +6,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 19,
+        "$rlength": 18,
         "$rcontent": [
             {
                 "$id": 2,
@@ -3570,9 +3570,9 @@
                 "name": "ServiceConsumption",
                 "active": true,
                 "m_Upkeep": 10000,
-                "m_ElectricityConsumption": 1000,
+                "m_ElectricityConsumption": 2000,
                 "m_WaterConsumption": 1000,
-                "m_GarbageAccumulation": 700,
+                "m_GarbageAccumulation": 40,
                 "m_TelecomNeed": 0
             },
             {
@@ -3580,7 +3580,7 @@
                 "$type": "28|Game.Prefabs.ServiceObject, Game",
                 "name": "ServiceObject",
                 "active": true,
-                "m_Service": $fstrref:"UnityGUID:1bfc2e0f6b548a844b9ae638199ef9c7"
+                "m_Service": $fstrref:"UnityGUID:a8305c2147557f243ac1b8194772539c"
             },
             {
                 "$id": 157,
@@ -3645,36 +3645,17 @@
             },
             {
                 "$id": 164,
-                "$type": "37|Game.Prefabs.ObsoleteIdentifiers, Game",
-                "name": "ObsoleteIdentifiers",
+                "$type": "37|Game.Prefabs.InitialResources, Game",
+                "name": "InitialResources",
                 "active": true,
-                "m_PrefabIdentifiers": {
+                "m_InitialResources": {
                     "$id": 165,
-                    "$type": "38|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$type": "38|Game.Prefabs.InitialResourceItem[], Game",
                     "$rlength": 1,
                     "$rcontent": [
                         {
                             "$id": 166,
-                            "$type": "39|Game.Prefabs.PrefabIdentifierInfo, Game",
-                            "m_Name": "Mixed Residential Clinic",
-                            "m_Type": "BuildingPrefab"
-                        }
-                    ]
-                }
-            },
-            {
-                "$id": 167,
-                "$type": "40|Game.Prefabs.InitialResources, Game",
-                "name": "InitialResources",
-                "active": true,
-                "m_InitialResources": {
-                    "$id": 168,
-                    "$type": "41|Game.Prefabs.InitialResourceItem[], Game",
-                    "$rlength": 1,
-                    "$rcontent": [
-                        {
-                            "$id": 169,
-                            "$type": "42|Game.Prefabs.InitialResourceItem, Game",
+                            "$type": "39|Game.Prefabs.InitialResourceItem, Game",
                             "m_Value": {
                                 "$type": 34,
                                 "m_Resource": 32,
@@ -3685,28 +3666,28 @@
                 }
             },
             {
-                "$id": 170,
-                "$type": "43|Game.Prefabs.StorageLimit, Game",
+                "$id": 167,
+                "$type": "40|Game.Prefabs.StorageLimit, Game",
                 "name": "StorageLimit",
                 "active": true,
                 "storageLimit": 50
             },
             {
-                "$id": 171,
-                "$type": "44|Game.Prefabs.ResourceConsumer, Game",
+                "$id": 168,
+                "$type": "41|Game.Prefabs.ResourceConsumer, Game",
                 "name": "ResourceConsumer",
                 "active": true,
                 "m_NoResourceNotificationPrefab": $fstrref:"UnityGUID:69f6a1eb7027c034c9dc6e046c21ac40"
             },
             {
-                "$id": 172,
-                "$type": "45|Game.Prefabs.ServiceFeeCollector, Game",
+                "$id": 169,
+                "$type": "42|Game.Prefabs.ServiceFeeCollector, Game",
                 "name": "ServiceFeeCollector",
                 "active": true
             },
             {
-                "$id": 173,
-                "$type": "46|Game.Prefabs.Hospital, Game",
+                "$id": 170,
+                "$type": "43|Game.Prefabs.Hospital, Game",
                 "name": "Hospital",
                 "active": true,
                 "m_AmbulanceCapacity": 2,
@@ -3724,13 +3705,13 @@
         ]
     },
     "m_Meshes": {
-        "$id": 174,
-        "$type": "47|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 171,
+        "$type": "44|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 175,
-                "$type": "48|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 172,
+                "$type": "45|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:d2a9dc85652284647818aeb42015674f",
                 "m_Position": {
                     "$type": 6,
