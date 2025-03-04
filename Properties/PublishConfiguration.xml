@@ -18,28 +18,30 @@ This pack currently includes
 - Mixed Residential Clinic
 	</LongDescription>
 	<!--Thumbnail-->
-	<Thumbnail Value="Properties/image1.jpg" />
-	<Screenshot Value="Properties/image1.jpg" />
-	<Screenshot Value="Properties/image2.jpg" />
-	<Screenshot Value="Properties/FireStation.png" />
-	<Screenshot Value="Properties/PoliceStation.png" />
-	<Screenshot Value="Properties/Clinic.png" />
+	<Thumbnail Value="Properties/1_image1.jpg" />
+	<Screenshot Value="Properties/1_image1.jpg" />
+	<Screenshot Value="Properties/2_image2.jpg" />
+	<Screenshot Value="Properties/3_FireStation.png" />
+	<Screenshot Value="Properties/4_PoliceStation.png" />
+	<Screenshot Value="Properties/5_Clinic.png" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/residential-service-building-pack.1670519/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.1" />
+	<ModVersion Value="1.1.0" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.1.*" />
+	<GameVersion Value="1.2.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="78903" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog>
-- Fix Clinic incorrectly labeled as police station
-- Fix Economy 2.0 Garbage Accumulation
-- Fix Fire Station Service Coverage
+- Update Packaging
+- Update Thumbnails
+- Increase Jail Cell Amount
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="discord" Url="https://discord.gg/UkKAfRqfCn" />
+	<ExternalLink Type="paypal" Url="https://www.paypal.com/paypalme/KonstantinSchwarze" />
+	<ExternalLink Type="ko-fi" Url="https://ko-fi.com/mimonsi" />
 </Publish>
