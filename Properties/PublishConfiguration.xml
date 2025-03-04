@@ -21,9 +21,9 @@ This pack currently includes
 	<Thumbnail Value="Properties/image1.jpg" />
 	<Screenshot Value="Properties/image1.jpg" />
 	<Screenshot Value="Properties/image2.jpg" />
-	<Screenshot Value="Properties/MixedResidentialFireStation.jpg" />
-	<Screenshot Value="Properties/MixedResidentialPoliceStation.jpg" />
-	<Screenshot Value="Properties/MixedResidentialClinic.jpg" />
+	<Screenshot Value="Properties/FireStation.png" />
+	<Screenshot Value="Properties/PoliceStation.png" />
+	<Screenshot Value="Properties/Clinic.png" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
