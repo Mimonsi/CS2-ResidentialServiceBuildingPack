@@ -13,9 +13,9 @@
 
         <AdditionalFilesDirectory>Resources</AdditionalFilesDirectory>
 
-        <AssemblyVersion>1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1</AssemblyVersion>
 
-        <FileVersion>1.1.0</FileVersion>
+        <FileVersion>1.1.1</FileVersion>
 
         <AssemblyName>ResidentialServiceBuildingPack</AssemblyName>
 
